@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(cofe.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+h1 {
+    font-size: 55px;
+    text-align: center;
+    font-family: Impact, serif;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+#menu {
+    background-color: moccasin;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+img {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+#established {
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+}
+footer {
+    text-align: center;
+}
+.item {
+    text-align: center;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px
+}
+.flavor,
+.dessert {
+    text-align: left;
+    width: 74%;
+}
+.price {
+    text-align: right;
+    width: 74%;
+}
+#bottom-line {
+    text-align: center;
+    font-size: 14px;
+}
+a {
+    color: black;
+}
